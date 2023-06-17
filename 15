@@ -1,0 +1,23 @@
+>>> a = [38, 21, 53, 62, 19]
+>>> len(a)    # 리스트의 길이를 구함
+5
+
+
+>>> a[5]      # 리스트의 길이를 인덱스로 지정
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    a[5]
+IndexError: list index out of range 
+
+>>> a[4]
+19
+
+
+>>> a[len(a)]
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    a[len(a)]
+IndexError: list index out of range 
+
+>>> a[len(a) - 1]    # 마지막 요소(인덱스 4) 출력
+19
