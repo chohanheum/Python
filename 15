@@ -21,3 +21,4 @@ IndexError: list index out of range
 
 >>> a[len(a) - 1]    # 마지막 요소(인덱스 4) 출력
 19
+.
